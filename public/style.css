@@ -1,0 +1,36 @@
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    margin: 3em 5em;
+}
+
+h1{
+    padding-bottom: 5px;
+}
+
+input{
+    width: 20em;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 20px;
+    color: red;
+    background: transparent;
+    font-size: 20px;
+    width: 6em;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: red;
+    transition: all 300ms ease;
+}
