@@ -3,6 +3,7 @@ const multer = require('multer')
 const path = require('path')
 
 const app = express()
+require('dotenv').config()
 
 //Middlewares
 app.use(express.static('public'))
@@ -41,5 +42,5 @@ app.post('/upload', (req, res) => {
 //
 
 //PORT
-const PORT = 8000
+const PORT = 8000 || process.env.PORT
 app.listen(PORT, () => console.log(`Server running on ${PORT}`))
